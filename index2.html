@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display using Column count</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="head px-10">
+        <!-- <nav class="navbar">
+            <div class="logo1">
+                <img src="/2nd/assets/download.png" alt="">
+            <h1 class="logo"><a href="#">Pexels</a></h1>
+            </div>
+           
+            <form class="example">
+            <input type="text" id="search" placeholder="Search for free photos..." name="search">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <ul>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">License</a></li>
+                <li><a href="#">Upload</a></li>
+            </ul>
+            <button class="join">Join</button>
+        </nav> -->
+
+
+        <!-- nav-bar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="logo1 m-3 p-3">
+                <img src="/2nd/assets/download.png" alt="">
+            <h1 class="logo"><a href="#">Pexels</a></h1>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <span class="input-group-text">
+                    <a href="#"><i class="bi bi-search"></i></a>
+                </span>
+                
+              </form>
+                <!-- toogle button for mobile nav -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+    
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-end m-3 p-3 fw-bold"" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#topics">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">License</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Upload</a>
+                        </li>
+                        <li class="nav-items d-md-none">
+                            <a href="#pricing" class="nav-link"> ... </a>
+                        </li>
+                        <li class="nav-items ms-2 d-none d-md-inline">
+                            <a href="#pricing" class="btn btn-secondary join fw-bold">Join</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <a href="#"><i class="bi bi-search"></i></a>
+
+        <h1>ANIMAL KINGDOM</h1>
+
+   <main class="main-body">
+
+    <div class="banner">
+        <button>Dod</button>
+        <button>Cat</button>
+        <button>Nature</button>
+        <button>Birds</button>
+        <button>Goats</button>
+        <button>Lions</button>
+        <button>Zebra</button>
+    </div> -->
+
+
+    <main>
+       
+
+        <div class="banner">
+            <button>Dod</button>
+            <button>Cat</button>
+            <button>Nature</button>
+            <button>Birds</button>
+            <button>Goats</button>
+            <button>Lions</button>
+            <button>Zebra</button>
+        </div>
+
+        <div class="whole">
+
+            <div class="imagebox">
+                <img src="./assets/kittens-cat-cat-puppy-rush-45170.jpeg"
+                    alt="" class="col7">
+            </div>
+            <div class="imagebox">
+                <div class="fourth-img">
+                    <img src="./assets/pexels-photo-11760851.jpeg"
+                    alt="" class="col4a">
+                    <img src="./assets/pexels-photo-12715260.jpeg"
+                    alt="" class="col4b">
+                    <img src="./assets/pexels-photo-12461880.jpeg"
+                    alt="" class="col4c">
+                </div>
+            </div>
+            <div class="imagebox">
+                <img src="./assets/tiger.jpeg"
+                    alt="" class="col7">
+            </div>
+            <div class="imagebox">
+                <img src="./assets/elephant-cub-tsavo-kenya-66898.jpeg"
+                    alt="" class="col7">
+            </div>
+            <div class="imagebox">
+                <img src="./assets/squirrel-animal-cute-rodents-47547.jpeg"
+                    alt="" class="col7">
+            </div>
+            <div class="imagebox">
+                <img src="./assets/pexels-pixabay-52961.jpg"
+                    alt="" class="col7">
+            </div>
+            <div class="imagebox">
+                <img src="./assets/pexels-photo-247502.jpeg"
+                    alt="" class="col7">
+            </div>
+            <div class="imagebox">
+                <img src="./assets/south-africa-hluhluwe-giraffes-pattern.jpg"
+                    alt="" class="col7">
+            </div>
+        </div>
+   </main>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+   crossorigin="anonymous"></script>
+
+</body>
+</html>
